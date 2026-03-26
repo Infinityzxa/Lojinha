@@ -1,8 +1,8 @@
-# LojinhaJava 🛒
+# LojinhaJava 
 
 Um sistema simples de e-commerce desenvolvido em Java para demonstrar conceitos de Programação Orientada a Objetos e Padrões de Projeto.
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto está organizado nos seguintes pacotes dentro de `src/br/com/lojinha`:
 
@@ -14,13 +14,13 @@ O projeto está organizado nos seguintes pacotes dentro de `src/br/com/lojinha`:
     -   `Estoque`, `Fornecedor`: Gestão de suprimentos (simulado).
 -   **`service`**: Contém serviços de apoio e integrações externas.
 
-## 🏗️ Principais Decisões Arquiteturais
+##  Principais Decisões Arquiteturais
 
 1.  **Separação de Camadas**: O sistema segue uma separação clara entre as classes de dados (`model`) e a lógica de interação/integração (`Main` e `service`).
 2.  **Herança e Polimorfismo**: Utilizados na modelagem de clientes (`ClientePF` e `ClientePJ`), permitindo tratar diferentes tipos de compradores de forma genérica no sistema de pedidos.
 3.  **Fluxo Completo de Checkout**: A aplicação simula desde a escolha de produtos até a geração de um código de rastreio para a entrega, garantindo uma visão holística de um sistema de vendas.
 
-## 💎 Padrão de Projeto: Singleton
+##  Padrão de Projeto: Singleton
 
 O padrão **Singleton** foi aplicado para gerenciar a comunicação com serviços externos de pagamento.
 
